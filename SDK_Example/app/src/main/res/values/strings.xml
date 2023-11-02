@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SDK_Example</string>
+    <string name="text_ip">ip address : </string>
+    <string name="text_hint_ip">please input ip address</string>
+
+    <string name="text_type">robot  type : </string>
+    <string name="text_hint_type">please choose robot type</string>
+
+
+    <string name="text_robot_info">robot基础信息</string>
+    <string name="text_robot_project">robot工程运动</string>
+    <string name="text_robot_moveAbsJ">MoveAbs运动</string>
+    <string name="text_robot_moveJ">MoveJ运动</string>
+    <string name="text_robot_moveL">MoveL运动</string>
+    <string name="text_robot_moveSp">MoveSP运动</string>
+</resources>

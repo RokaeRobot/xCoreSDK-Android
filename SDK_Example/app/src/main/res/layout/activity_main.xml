@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_ip" />
+
+        <EditText
+            android:id="@+id/text_ip"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/text_hint_ip"
+            android:autofillHints="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_type" />
+
+        <Spinner
+            android:id="@+id/sp_robot_type"
+            android:entries="@array/data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_robot_info"
+        android:text="@string/text_robot_info"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btn_robot_project"
+        android:text="@string/text_robot_project"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+
+    <Button
+        android:id="@+id/btn_robot_moveAbsJ"
+        android:text="@string/text_robot_moveAbsJ"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+
+    <Button
+        android:id="@+id/btn_robot_moveJ"
+        android:text="@string/text_robot_moveJ"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btn_robot_moveL"
+        android:text="@string/text_robot_moveL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btn_robot_moveSP"
+        android:text="@string/text_robot_moveSp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+
+
+</LinearLayout>

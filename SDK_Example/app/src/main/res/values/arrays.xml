@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>协作xMate</item>
+        <item>协作xMatePro</item>
+        <item>工业标准6轴</item>
+        <item>工业PCB3</item>
+        <item>工业PCB4</item>
+    </string-array>
+</resources>
